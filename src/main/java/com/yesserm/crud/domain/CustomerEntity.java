@@ -3,7 +3,7 @@ package com.yesserm.crud.domain;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Table
+@Table(name = "customers")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
